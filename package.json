@@ -1,6 +1,6 @@
 {
   "name": "@haikal212/angular-text-input-autocomplete",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "A angular 6+ directive for adding autocomplete functionality to text input elements, built around composability",
   "scripts": {
     "start": "concurrently --raw \"webpack-dev-server --open\" \"npm run test:watch\"",
