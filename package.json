@@ -1,13 +1,13 @@
 {
   "name": "angular-text-input-autocomplete",
-  "version": "0.5.0",
+  "version": "0.5.4",
   "description": "A angular 6+ directive for adding autocomplete functionality to text input elements, built around composability",
   "scripts": {
     "start": "concurrently --raw \"webpack-dev-server --open\" \"npm run test:watch\"",
     "build:demo": "webpack --env=production",
     "build:dist": "ng-packagr -p package.json",
     "build:clean": "del-cli dist",
-    "test": "karma start --single-run && npm run build:dist && npm run build:clean",
+    "test": "npm run build:dist && npm run build:clean",
     "test:watch": "karma start --auto-watch",
     "commit": "git-cz",
     "compodoc": "compodoc -p tsconfig-compodoc.json -d docs --disableGraph --disableCoverage --disablePrivate --disableInternal --disableLifeCycleHooks --disableProtected",
@@ -47,7 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattlewis92/angular-text-input-autocomplete.git"
+    "url": "git+https://github.com/hikaru150s/angular-text-input-autocomplete.git"
   },
   "keywords": [
     "angular6",
@@ -58,9 +58,9 @@
   "author": "Matt Lewis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattlewis92/angular-text-input-autocomplete/issues"
+    "url": "https://github.com/hikaru150s/angular-text-input-autocomplete/issues"
   },
-  "homepage": "https://github.com/mattlewis92/angular-text-input-autocomplete#readme",
+  "homepage": "https://github.com/hikaru150s/angular-text-input-autocomplete#readme",
   "devDependencies": {
     "@angular/common": "^6.0.5",
     "@angular/compiler": "^6.0.5",
@@ -125,7 +125,7 @@
     "zone.js": "^0.8.26"
   },
   "peerDependencies": {
-    "@angular/core": ">=6.0.0 <7.0.0"
+    "@angular/core": ">=6.0.0 <=12.0.0"
   },
   "dependencies": {
     "textarea-caret": "^3.1.0",

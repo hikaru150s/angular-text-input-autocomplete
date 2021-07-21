@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.4"></a>
+## [0.5.4](https://github.com/hikaru150s/angular-text-input-autocomplete/compare/v0.5.0...v0.5.4) (2021-07-21)
+
+
+
+<a name="0.5.3"></a>
+## [0.5.3](https://github.com/hikaru150s/angular-text-input-autocomplete/compare/v0.5.0...v0.5.3) (2021-07-21)
+
+
+
+<a name="0.5.2"></a>
+## [0.5.2](https://github.com/hikaru150s/angular-text-input-autocomplete/compare/v0.5.0...v0.5.2) (2021-07-21)
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/mattlewis92/angular-text-input-autocomplete/compare/v0.4.1...v0.5.0) (2021-02-26)
 
